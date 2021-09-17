@@ -1,0 +1,67 @@
+/* Big laptop version */
+@media only screen and (max-width:1440px){
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+}
+
+/* For Tablet */
+@media only screen and (max-width: 1024px) {
+     /* Global */
+     .container {
+        width: 90%;
+        margin: auto;
+      }
+
+    /* Start Nav Section */
+    nav ul {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background-color: black;
+        height: 100%;
+        width: 97%;
+        flex-direction: column;
+        text-align: center;
+        transition: all 0.6s ease;
+       
+    }
+    nav ul li {
+        margin: 15px 0;
+    }
+    nav ul li a{
+        color: white;
+        font-size: 13px;
+    }
+    
+    label #open-btn{
+        display: block;
+    }
+    #nav-check:checked ~ ul{
+        left: 2%;
+    }
+    #nav-check:checked ~ label #open-btn:before{
+        content:"\f00d";
+    }
+    /* end Nav Section */
+}
+
+/* start at mobile version */
+@media only screen and (max-width: 600px){
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+   
+}
+
+/* Mini mobile */
+@media only screen and (max-width: 450px){
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+}
