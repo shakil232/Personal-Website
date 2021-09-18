@@ -22,11 +22,26 @@ h6 {
   font-family: "Volkhov", serif;
 }
 section{
-    padding: 40px 0;
+    padding: 30px 0;
 }
-img{
-    width: 100%;
+.primary-btn{
+  margin: 20px 0;
+  width: 140px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  background-color: tomato;
+  font-weight: 500;
+  font-size: 13px;
+  padding: 13px;
+  cursor: pointer;
+  transition: all ease-in-out 1.2s;
 }
+.primary-btn:hover{
+  background-color:green; 
+}
+
 /* global */
 .container{
     max-width: 1160px;
@@ -68,5 +83,143 @@ label #open-btn{
 #nav-check{
   display: none;
 }
-
 /* End Nav Section */
+
+/* Start Hero Section */
+.hero-section{
+  display: flex;
+  align-items: center;
+}
+.intro-text{
+  width: 50%;
+}
+.intro-pic{
+  width: 50%;
+}
+.intro-text h1{
+  color: #363958;
+  font-size: 40px;
+  
+}
+.intro-text-color{
+  color:rgb(238, 104, 80);
+  font-size: 55px;
+}
+.intro-text p{
+  color: dimgray;
+}
+.intro-pic img{
+  width: 85%;
+  height: auto;
+  padding-left: 70px;
+} 
+/* End Hero Section */
+
+/* Start About Section */
+.about-section{
+  display: flex;
+  align-items: center;
+}
+.about-text{
+  width: 50%;
+}
+.about-pic{
+  width: 50%;
+}
+.about-text h1{
+  color: #363958;
+  font-size: 40px;
+  margin-bottom: 10px;
+  
+}
+.about-text p{
+  color: dimgray;
+  text-align: justify;
+}
+.about-pic img{
+  width: 85%;
+  height: auto;
+  padding-right: 70px;
+} 
+.download-icon{
+  padding-right: 5px;
+  font-size: 18px;
+}
+/* End About Section */
+
+/* Start Chat Section */
+.chat-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url('images/background/bg.png');
+  background-position: center;
+  background-size: 65%;
+  background-repeat: no-repeat;
+  height: 130px;
+}
+.chat-text{
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+}
+.chat-btn{
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  background-color: tomato;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 13px;
+  cursor: pointer;
+  transition: all ease-in-out 1.2s;
+}
+.chat-btn:hover{
+  background-color: green
+}
+/* End Chat Section */
+
+/* Start Connect Section */
+
+.connect h3 {
+  color: #363958;
+  text-align: center;
+  font-size: 30px;
+}
+.icon-content{
+  text-align: center;
+}
+.icon{
+  padding: 0 3px;
+  font-size: 30px;
+  color:tomato;
+  cursor: pointer;
+  transition: transform(1s);
+}
+.icon :hover{
+  color: rebeccapurple;
+  transform: scale(1.5);
+}
+/* End Connect Section */
+
+/* Start Footer Section */
+.footer{
+text-align: center;
+}
+.footer-text{
+  color: #363958;
+}
+.footer-color{
+  color: rgb(85, 15, 117);
+  transition: all ease-in-out 1.2s;
+  font-weight: 600;
+}
+.footer-color:hover{
+  color: green;
+}
+.git-icon{
+  padding-left: 5px;
+  font-size: 20px;
+}
+/* End Footer Section */
