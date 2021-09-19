@@ -72,7 +72,7 @@
   
   /* Start About Section */
   .about-section{
-    flex-direction: column-reverse;
+    flex-direction: column;
     text-align: center;
   }
   .about-text h1{
@@ -84,6 +84,7 @@
   .about-pic img{
     width: 100%;
     padding-right: 0px;
+    padding-bottom: 45px;
   } 
   .download-icon{
     font-size: 15px;
@@ -135,10 +136,10 @@
   /* End Connect Section */
 
   /* Start Footer Section */
-    .git-icon{
-      font-size: 15px;
-    }
-    /* End Footer Section */
+  .git-icon{
+    font-size: 15px;
+  }
+  /* End Footer Section */
 }
 
 /* start at mobile version */
@@ -147,6 +148,32 @@
         width: 90%;
         margin: 0 auto;
     }
+
+  /* Start Chat Section */
+  
+  .chat-content{
+     background-size: 65%;
+  }
+  .chat-text{
+     font-size: 10px;
+  }
+  .chat-btn{
+     font-size: 12px;
+     padding: 10px;
+  }
+  /* End Chat Section */
+
+  /* Start Footer Section */
+  .footer-text{
+    font-size: 14px;
+  }
+  .footer-color{
+    font-size: 14px;
+  }
+  .git-icon{
+    font-size: 15px;
+  }
+  /* End Footer Section */
    
 }
 
@@ -157,4 +184,28 @@
         margin: 0 auto;
     }
 
+   /* Start Chat Section */
+    .chat-content{
+        background-size: 75%;
+    }
+    .chat-text{
+       font-size: 10px;
+    }
+  .chat-btn{
+      font-size: 12px;
+      padding: 10px;
+  }
+  /* End Chat Section */ 
+
+  /* Start Footer Section */
+  .footer-text{
+    font-size: 12px;
+  }
+  .footer-color{
+    font-size: 12px;
+  }
+  .git-icon{
+    font-size: 13px;
+  }
+  /* End Footer Section */
 }
