@@ -10,7 +10,7 @@
 
 ### _All Device Responsive image_
 
-![Landing Page](images/markDown/personal-website-full-responsive.png)
+![Landing Page](images/markDown/personal-website-responsive.png)
 
 ---
 
