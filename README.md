@@ -6,7 +6,7 @@
 - html5 & css3 uses .
 
 ### _Web-Site Live Link_
-[click here](http://192.168.31.172:5500/index.html)
+[click here](https://shakil232.github.io/Personal-Website/)
 
 ### _All Device Responsive image_
 
